@@ -4,6 +4,7 @@ build/
 tmp/
 temp/
 dist/
+lib/
 coverage/
 .env.*
 !.env.example

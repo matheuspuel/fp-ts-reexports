@@ -10,7 +10,7 @@ const config: Config.InitialOptions = {
   testEnvironment: 'node',
   testPathIgnorePatterns: [
     '<rootDir>/node_modules/', //
-    '<rootDir>/dist/',
+    '<rootDir>/lib/',
   ],
   coverageThreshold: {
     global: {

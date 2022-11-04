@@ -1,0 +1,1 @@
+Helps importing fp-ts consistently.
