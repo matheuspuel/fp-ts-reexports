@@ -27,7 +27,8 @@
     "postversion": "git push --tags && yarn publish --new-version %npm_package_version% --tag %npm_package_version% && git push"
   },
   "dependencies": {
-    "fp-ts": "^2.13.1"
+    "fp-ts": "^2.13.1",
+    "io-ts": "^2.2.19"
   },
   "devDependencies": {
     "@types/jest": "^28.1.2",

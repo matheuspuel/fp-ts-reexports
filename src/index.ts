@@ -1,8 +1,11 @@
 export * as Apply from 'fp-ts/Apply'
 export * as A from 'fp-ts/Array'
 export * as B from 'fp-ts/boolean'
+export * as Codec from 'io-ts/Codec'
 export * as Console from 'fp-ts/Console'
+export * as D from 'io-ts/Decoder'
 export * as E from 'fp-ts/Either'
+export * as En from 'io-ts/Encoder'
 export * as Eq from 'fp-ts/Eq'
 export {
   absurd,
