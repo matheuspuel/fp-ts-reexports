@@ -20,5 +20,6 @@ const config: Config.InitialOptions = {
       lines: 100,
     },
   },
+  coveragePathIgnorePatterns: ['<rootDir>/src/index.ts'],
 }
 export default config
