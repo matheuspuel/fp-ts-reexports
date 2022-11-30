@@ -24,7 +24,7 @@
     "test:debug": "ts-node-dev --transpile-only ./node_modules/jest/bin/jest --runInBand --coverage=false",
     "lint": "eslint .",
     "preversion": "yarn test",
-    "postversion": "git push --tags && yarn publish --new-version %npm_package_version% --tag %npm_package_version% && git push"
+    "postversion": "git push --tags && yarn publish --new-version %npm_package_version% --tag latest --tag %npm_package_version% && git push"
   },
   "dependencies": {
     "fp-ts": "^2.13.1",
